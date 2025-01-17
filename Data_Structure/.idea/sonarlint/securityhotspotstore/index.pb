@@ -13,3 +13,7 @@ f
 6src/main/java/org/example/linkedLists/LinkedLists.java,7\a\7ad6eda5cd083ec306c28403772ac3295d5b6976
 _
 /src/main/java/org/example/linkedLists/Node.java,5\1\5130e6a0aa8a049e79efd3e4ffdfaaff3c57be63
+[
++src/main/java/org/example/stacks/Stack.java,9\2\92f7d7905ff50c4666c2ebd52c5dd5fc9d73f999
+[
++src/main/java/org/example/queues/Queue.java,d\8\d87a3871ee2057e830defc89ffa390721bc5a270
