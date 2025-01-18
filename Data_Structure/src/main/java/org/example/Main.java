@@ -3,6 +3,7 @@ package org.example;
 import org.example.arrays.Array;
 import org.example.linkedLists.LinkedList;
 import org.example.queues.Queue;
+import org.example.queues.QueueWithTwoStacks;
 import org.example.stacks.Stack;
 
 public class Main {
@@ -118,5 +119,31 @@ public class Main {
 
         System.out.println("Queue after all dequeues: " + queue);
         System.out.println("Is Empty: " + queue.isEmpty());
+
+
+        // Testing Queue with Two Stacks
+        System.out.println("Testing QueueWithTwoStacks:");
+        QueueWithTwoStacks queueWithTwoStacks = new QueueWithTwoStacks();
+        queueWithTwoStacks.enqueue(10);
+        queueWithTwoStacks.enqueue(20);
+        queueWithTwoStacks.enqueue(30);
+        queueWithTwoStacks.enqueue(40);
+        System.out.println("Dequeued: " + queueWithTwoStacks.dequeue());
+        System.out.println("Dequeued: " + queueWithTwoStacks.dequeue());
+        queueWithTwoStacks.enqueue(50);
+        System.out.println("Peek: " + queueWithTwoStacks.peek());
+        System.out.println("Is Empty: " + queueWithTwoStacks.isEmpty());
+
+
+
+
+
+
+
+
     }
+
+
+
+
 }
